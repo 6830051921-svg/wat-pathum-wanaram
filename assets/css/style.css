@@ -164,6 +164,18 @@ figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin
 .mural { columns: 3 280px; column-gap: 20px; margin-top: 40px; }
 .mural figure { break-inside: avoid; margin-bottom: 24px; }
 
+.legend {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 56px;
+  padding: 32px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.legend h3 { font-size: 24px; margin-bottom: 8px; }
+.legend .timeline { margin-top: 16px; }
+
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 40px; }
 .card { background: var(--paper); border: 1px solid var(--line); display: flex; flex-direction: column; }
@@ -226,6 +238,7 @@ th { font-weight: 500; }
   .feature:nth-of-type(even) > figure { order: 0; }
   .cards, .team { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .stories { grid-template-columns: 1fr; }
+  .legend { grid-template-columns: 1fr; gap: 28px; padding: 24px 20px; }
   .section { padding: 56px 0; }
 }
 
