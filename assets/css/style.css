@@ -231,9 +231,17 @@ a.card h3 { color: var(--roof); }
 .note p:last-child { margin: 0; }
 
 /* Credits */
-.team { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 24px; list-style: none; padding: 0; }
-.team li { background: var(--paper); border: 1px solid var(--line); padding: 16px 20px; }
-.team b { display: block; font-weight: 500; }
+.team { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px 28px; margin-top: 24px; list-style: none; padding: 0; }
+.team li { text-align: center; line-height: 1.5; }
+.team .avatar {
+  display: block;
+  aspect-ratio: 1;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  background: var(--lacquer) url('../img/lotus.svg') center / 42% no-repeat;
+}
+.team b { display: block; font-weight: 500; font-size: 18px; }
+.team li > span:last-child { color: var(--ink-soft); font-size: 15px; }
 .sources { padding-left: 20px; }
 .sources li { margin-bottom: 6px; overflow-wrap: anywhere; }
 .table-wrap { overflow-x: auto; margin-top: 16px; }
@@ -269,7 +277,7 @@ th { font-weight: 500; }
   .site-header { position: static; }
   html { scroll-padding-top: 16px; }
   .hero .wrap { padding: 24px 16px 32px; }
-  .cards, .team { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr; }
   .site-nav { margin-left: -7px; gap: 0; }
   .site-nav a { padding: 8px 7px; font-size: 15px; }
   .hero p { font-size: 17px; }
