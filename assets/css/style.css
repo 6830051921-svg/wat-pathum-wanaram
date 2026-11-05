@@ -199,8 +199,13 @@ figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin
   margin-top: 32px;
 }
 .pair img { width: auto; max-width: 100%; max-height: 420px; margin: 0 auto; }
-.pair h4 { font: 500 19px/1.5 var(--sans); margin: 0 0 4px; color: var(--gold-bright); }
-.pair p { margin: 0; color: var(--on-lacquer-soft); }
+.pair h4, .pair-note h4, .pair-wide h4 { font: 500 19px/1.5 var(--sans); margin: 0 0 4px; color: var(--gold-bright); }
+.pair p, .pair-note p, .pair-wide p { margin: 0; color: var(--on-lacquer-soft); }
+
+.pair-note, .pair-wide { margin-top: 32px; }
+.pair-note { max-width: 44em; }
+.pair-images { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
+.pair-images img { width: 100%; }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 40px; }
@@ -252,6 +257,7 @@ th { font-weight: 500; }
   .feature:nth-of-type(even) > figure { order: 0; }
   .cards, .team { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .pair { grid-template-columns: 1fr; gap: 14px; }
+  .pair-images { grid-template-columns: 1fr; }
   .history { grid-template-columns: 1fr; gap: 28px; }
   .history figure { width: 100%; max-width: 340px; margin: 0 auto; }
   .section { padding: 56px 0; }
