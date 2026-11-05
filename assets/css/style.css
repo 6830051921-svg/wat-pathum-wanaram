@@ -241,7 +241,7 @@ a.card h3 { color: var(--roof); }
   background: var(--lacquer) url('../img/lotus.svg') center / 42% no-repeat;
 }
 .team b { display: block; font-weight: 500; font-size: 18px; }
-.team li > span:last-child { color: var(--ink-soft); font-size: 15px; }
+.team li > span:not(.avatar) { display: block; color: var(--ink-soft); font-size: 15px; }
 .sources { padding-left: 20px; }
 .sources li { margin-bottom: 6px; overflow-wrap: anywhere; }
 .table-wrap { overflow-x: auto; margin-top: 16px; }
