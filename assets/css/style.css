@@ -259,7 +259,7 @@ th { font-weight: 500; }
   .cards, .team { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .stories { grid-template-columns: 1fr; }
   .history { grid-template-columns: 1fr; gap: 28px; }
-  .history figure { max-width: 340px; margin: 0 auto; }
+  .history figure { width: 100%; max-width: 340px; margin: 0 auto; }
   .legend { grid-template-columns: 1fr; gap: 28px; padding: 24px 20px; }
   .section { padding: 56px 0; }
 }
