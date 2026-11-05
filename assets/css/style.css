@@ -199,9 +199,8 @@ figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin
   margin-top: 32px;
 }
 .pair img { width: auto; max-width: 100%; max-height: 420px; margin: 0 auto; }
-.pair h4, .pair-note h4 { font: 500 19px/1.5 var(--sans); margin: 0 0 4px; color: var(--gold-bright); }
-.pair p, .pair-note p { margin: 0; color: var(--on-lacquer-soft); }
-.pair-note { margin-top: 32px; max-width: 44em; }
+.pair h4 { font: 500 19px/1.5 var(--sans); margin: 0 0 4px; color: var(--gold-bright); }
+.pair p { margin: 0; color: var(--on-lacquer-soft); }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 40px; }
