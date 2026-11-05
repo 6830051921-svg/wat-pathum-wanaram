@@ -167,7 +167,8 @@ p { margin: 0 0 1em; }
 .feature h3 { font-size: 26px; margin-bottom: 8px; }
 .feature figure, .card figure { margin: 0; }
 figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin-top: 8px; }
-.tall img { max-height: 620px; width: auto; margin: 0 auto; }
+.feature .tall { width: 100%; max-width: 400px; justify-self: center; }
+.tall img { width: 100%; }
 
 .facts { list-style: none; padding: 0; margin: 12px 0 0; border-top: 1px solid var(--line); }
 .facts li { padding: 8px 0; border-bottom: 1px solid var(--line); }
