@@ -172,6 +172,9 @@ figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin
 .facts li { padding: 8px 0; border-bottom: 1px solid var(--line); }
 .facts b { font-weight: 500; }
 
+.plan { margin: 0; }
+.plan img { width: 100%; border: 1px solid var(--line); }
+
 /* Mural stories */
 .mural-group { margin-top: 48px; }
 .mural-group h3 { font-size: 24px; margin-bottom: 12px; }
