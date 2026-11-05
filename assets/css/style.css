@@ -68,9 +68,18 @@ p { margin: 0 0 1em; }
   padding-bottom: 10px;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--on-lacquer);
   font: 600 19px/1.4 var(--serif);
   text-decoration: none;
+}
+.brand::before {
+  content: '';
+  width: 38px;
+  height: 26px;
+  background: url('../img/lotus.svg') center / contain no-repeat;
 }
 .site-nav { display: flex; flex-wrap: wrap; gap: 4px; }
 .site-nav a {
