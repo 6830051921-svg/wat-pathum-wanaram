@@ -18,7 +18,7 @@
       <use href="#leaf" xlink:href="#leaf" transform="rotate(270)"/>
     </g>
   </defs>
-  <g fill="none" stroke="#dcae55" stroke-opacity=".26" stroke-width="1.1" stroke-linejoin="round">
+  <g fill="none" stroke="#dcae55" stroke-opacity=".13" stroke-width="1.1" stroke-linejoin="round">
     <path d="M60 0 120 60 60 120 0 60Z"/>
     <use href="#prajamyam" xlink:href="#prajamyam" transform="translate(60 60)"/>
     <use href="#prajamyam" xlink:href="#prajamyam" transform="translate(0 0) scale(.72)"/>

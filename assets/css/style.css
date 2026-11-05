@@ -101,7 +101,7 @@ p { margin: 0 0 1em; }
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   color: var(--on-lacquer);
-  background: var(--lacquer) url('../img/thai-pattern.svg') 0 0 / 120px 120px;
+  background: var(--lacquer) url('../img/thai-pattern.svg') 0 0 / 190px 190px;
 }
 .hero img {
   grid-column: 2;
@@ -114,6 +114,7 @@ p { margin: 0 0 1em; }
   max-width: none;
   margin: 0;
   padding: 32px clamp(24px, 3vw, 56px);
+  background: radial-gradient(closest-side, var(--lacquer) 72%, transparent);
 }
 .hero h1 { font-size: clamp(32px, 3vw, 56px); }
 .hero p { max-width: 24em; margin: 12px 0 0; font-size: 19px; }
