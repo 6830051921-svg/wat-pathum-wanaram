@@ -145,7 +145,14 @@ p { margin: 0 0 1em; }
 .section-dark .eyebrow { color: var(--gold-bright); }
 .section h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 12px; }
 .lead { max-width: 44em; color: var(--ink-soft); }
-.prose { max-width: 46em; }
+.history {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 56px;
+  align-items: center;
+}
+.history figure { margin: 0; }
+.history img { width: 100%; }
 
 /* Feature rows */
 .feature {
@@ -251,6 +258,8 @@ th { font-weight: 500; }
   .feature:nth-of-type(even) > figure { order: 0; }
   .cards, .team { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .stories { grid-template-columns: 1fr; }
+  .history { grid-template-columns: 1fr; gap: 28px; }
+  .history figure { max-width: 340px; margin: 0 auto; }
   .legend { grid-template-columns: 1fr; gap: 28px; padding: 24px 20px; }
   .section { padding: 56px 0; }
 }
