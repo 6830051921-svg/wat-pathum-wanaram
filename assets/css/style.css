@@ -101,7 +101,7 @@ p { margin: 0 0 1em; }
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   color: var(--on-lacquer);
-  background: var(--lacquer);
+  background: var(--lacquer) url('../img/thai-pattern.svg') 0 0 / 120px 120px;
 }
 .hero img {
   grid-column: 2;
