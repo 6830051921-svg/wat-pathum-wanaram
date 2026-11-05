@@ -169,6 +169,8 @@ p { margin: 0 0 1em; }
 figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin-top: 8px; }
 .feature .tall { width: 100%; max-width: 400px; justify-self: center; }
 .tall img { width: 100%; }
+.feature .forest { width: 100%; max-width: 360px; justify-self: center; }
+.forest img { width: 100%; }
 
 .facts { list-style: none; padding: 0; margin: 12px 0 0; border-top: 1px solid var(--line); }
 .facts li { padding: 8px 0; border-bottom: 1px solid var(--line); }
