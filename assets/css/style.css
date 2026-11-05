@@ -175,6 +175,18 @@ figcaption { color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; margin
 
 .plan { margin: 0; }
 .plan img { width: 100%; border: 1px solid var(--line); }
+.plan-scroll { overflow-x: auto; border: 1px solid var(--line); }
+.plan-map { display: block; width: 100%; min-width: 760px; height: auto; }
+.plan-map text {
+  font: 700 23px var(--sans);
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: 7px;
+  stroke-linejoin: round;
+  paint-order: stroke;
+}
+.plan-map .halo { stroke: var(--paper); stroke-width: 7px; }
+.plan-map .arrow { stroke: var(--roof); stroke-width: 3px; }
 
 /* Mural stories */
 .mural-group { margin-top: 48px; }
