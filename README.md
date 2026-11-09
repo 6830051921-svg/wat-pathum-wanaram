@@ -15,10 +15,10 @@
 
 นักศึกษาคณะวิศวกรรมศาสตร์ #2
 
-- Chalermpong Khieowan
-- Nopchanok Buranakul
-- Ramil Vichairat
-- Phatthanan Yimadarlee
-- Patchareeporn Boonwan
-- Pornpipat Laochindawat
-- Pavarad Sivartranon
+- นายเฉลิมพงศ์ เขียวหวาน (Chalermpong Khieowan)
+- นายณพชนก บูรณะกูล (Nopchanok Buranakul)
+- นายรามิล วิชัยรัตน์ (Ramil Vichairat)
+- นายพัทธนันท์ ยีหมัดอาหลี (Phatthanan Yimadarlee)
+- นส.พัชรีพร บุญวัน (Patchareeporn Boonwan)
+- นายพรพิพัฒน์ เหลาจินดาวัฒน์ (Pornpipat Laochindawat)
+- นายปวเรศ ศิวะทรานนท์ (Pavarad Sivartranon)
